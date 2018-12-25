@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>linYee&#39;s blog | babel6 的变化</title>
+    <meta name="description" content="可长歌，可醉饮，唯不可离去">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.e9561589.css" as="style"><link rel="preload" href="/assets/js/app.c28e1187.js" as="script"><link rel="preload" href="/assets/js/83.03da1a3f.js" as="script"><link rel="prefetch" href="/assets/js/33.5d615819.js"><link rel="prefetch" href="/assets/js/1.314e9720.js"><link rel="prefetch" href="/assets/js/2.b7ae9f51.js"><link rel="prefetch" href="/assets/js/3.1469442e.js"><link rel="prefetch" href="/assets/js/4.8b9c3665.js"><link rel="prefetch" href="/assets/js/5.8f05fa48.js"><link rel="prefetch" href="/assets/js/6.de11eee2.js"><link rel="prefetch" href="/assets/js/7.058c7ab3.js"><link rel="prefetch" href="/assets/js/8.c485cbd9.js"><link rel="prefetch" href="/assets/js/9.14214538.js"><link rel="prefetch" href="/assets/js/10.0c8a647e.js"><link rel="prefetch" href="/assets/js/11.5d18dcd9.js"><link rel="prefetch" href="/assets/js/12.99e91df1.js"><link rel="prefetch" href="/assets/js/13.14fc9d1a.js"><link rel="prefetch" href="/assets/js/14.c09d8685.js"><link rel="prefetch" href="/assets/js/15.a2f4c159.js"><link rel="prefetch" href="/assets/js/16.c8513de2.js"><link rel="prefetch" href="/assets/js/17.77a65d16.js"><link rel="prefetch" href="/assets/js/18.2ed37ee1.js"><link rel="prefetch" href="/assets/js/19.1cf6910b.js"><link rel="prefetch" href="/assets/js/20.5a01f12d.js"><link rel="prefetch" href="/assets/js/21.ed3c83c5.js"><link rel="prefetch" href="/assets/js/22.418ec443.js"><link rel="prefetch" href="/assets/js/23.43c2d579.js"><link rel="prefetch" href="/assets/js/24.106790ab.js"><link rel="prefetch" href="/assets/js/25.83b6967b.js"><link rel="prefetch" href="/assets/js/26.2ddc9425.js"><link rel="prefetch" href="/assets/js/27.623b7ab8.js"><link rel="prefetch" href="/assets/js/28.51006cb3.js"><link rel="prefetch" href="/assets/js/29.0c2dbf0e.js"><link rel="prefetch" href="/assets/js/30.3dfcd80c.js"><link rel="prefetch" href="/assets/js/31.6e3e651d.js"><link rel="prefetch" href="/assets/js/32.a1340061.js"><link rel="prefetch" href="/assets/js/34.806c3aca.js"><link rel="prefetch" href="/assets/js/35.a93ce73b.js"><link rel="prefetch" href="/assets/js/36.88eb63e0.js"><link rel="prefetch" href="/assets/js/37.c53b1529.js"><link rel="prefetch" href="/assets/js/38.d8a736e3.js"><link rel="prefetch" href="/assets/js/39.8d87e087.js"><link rel="prefetch" href="/assets/js/40.abc9cabf.js"><link rel="prefetch" href="/assets/js/41.ab549a3a.js"><link rel="prefetch" href="/assets/js/42.d5b9899d.js"><link rel="prefetch" href="/assets/js/43.180edec4.js"><link rel="prefetch" href="/assets/js/44.fa1da641.js"><link rel="prefetch" href="/assets/js/45.e49fe417.js"><link rel="prefetch" href="/assets/js/46.006c5467.js"><link rel="prefetch" href="/assets/js/47.c2f4fe77.js"><link rel="prefetch" href="/assets/js/48.31f7bd25.js"><link rel="prefetch" href="/assets/js/49.ff43b66c.js"><link rel="prefetch" href="/assets/js/50.8097df43.js"><link rel="prefetch" href="/assets/js/51.ff1e2e34.js"><link rel="prefetch" href="/assets/js/52.0b64b055.js"><link rel="prefetch" href="/assets/js/53.d6b07f08.js"><link rel="prefetch" href="/assets/js/54.d90f1430.js"><link rel="prefetch" href="/assets/js/55.36a0f5d2.js"><link rel="prefetch" href="/assets/js/56.3fa1e1fc.js"><link rel="prefetch" href="/assets/js/57.b405dc9e.js"><link rel="prefetch" href="/assets/js/58.e00c43fc.js"><link rel="prefetch" href="/assets/js/59.80b36c49.js"><link rel="prefetch" href="/assets/js/60.a1bbdc6a.js"><link rel="prefetch" href="/assets/js/61.91a83384.js"><link rel="prefetch" href="/assets/js/62.23603e69.js"><link rel="prefetch" href="/assets/js/63.07c9232e.js"><link rel="prefetch" href="/assets/js/64.7e6b1d65.js"><link rel="prefetch" href="/assets/js/65.c802ed55.js"><link rel="prefetch" href="/assets/js/66.eea0beab.js"><link rel="prefetch" href="/assets/js/67.584b410a.js"><link rel="prefetch" href="/assets/js/68.cc18b160.js"><link rel="prefetch" href="/assets/js/69.77e1586e.js"><link rel="prefetch" href="/assets/js/70.2003d970.js"><link rel="prefetch" href="/assets/js/71.60093cc3.js"><link rel="prefetch" href="/assets/js/72.796ad2eb.js"><link rel="prefetch" href="/assets/js/73.c4a8b30b.js"><link rel="prefetch" href="/assets/js/74.feb798c8.js"><link rel="prefetch" href="/assets/js/75.6fb13014.js"><link rel="prefetch" href="/assets/js/76.edb2c0b5.js"><link rel="prefetch" href="/assets/js/77.9e39f58e.js"><link rel="prefetch" href="/assets/js/78.08ca8c00.js"><link rel="prefetch" href="/assets/js/79.7366f16a.js"><link rel="prefetch" href="/assets/js/80.0d2e0e48.js"><link rel="prefetch" href="/assets/js/81.fe23c69b.js"><link rel="prefetch" href="/assets/js/82.ca6ca6a2.js"><link rel="prefetch" href="/assets/js/84.db1a588f.js"><link rel="prefetch" href="/assets/js/85.bcc7a0d3.js"><link rel="prefetch" href="/assets/js/86.82e737b3.js"><link rel="prefetch" href="/assets/js/87.ed015db9.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e9561589.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/" class="home-link router-link-active"><!----><span class="site-name">
+      linYee's blog
+    </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">博客</a></div><div class="nav-item"><a href="/life/" class="nav-link">生活</a></div><div class="nav-item"><a href="/resume/" class="nav-link">简历</a></div><a href="https://github.com/linYeeTracy/blogs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header><div class="sidebar-mask"></div><div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">博客</a></div><div class="nav-item"><a href="/life/" class="nav-link">生活</a></div><div class="nav-item"><a href="/resume/" class="nav-link">简历</a></div><a href="https://github.com/linYeeTracy/blogs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav><ul class="sidebar-links"><li><a href="/blog/md-example.html" class="sidebar-link">markdown语法实例</a></li><li><a href="/blog/git.html" class="sidebar-link">git 命令行</a></li><li><a href="/blog/github-plugins.html" class="sidebar-link">文档整理</a></li><li><a href="/blog/es6.html" class="sidebar-link">es6</a></li><li><a href="/blog/react.html" class="sidebar-link">react</a></li><li><a href="/blog/ruby-gem.html" class="sidebar-link">ruby-gem</a></li><li><a href="/blog/vue-amap.html" class="sidebar-link">在 Vue 中使用高德地图的一些问题</a></li><li><a href="/blog/vue-business-component.html" class="sidebar-link">谈谈 Vue 业务组件</a></li><li><a href="/blog/axios.html" class="sidebar-link">axios</a></li><li><a href="/blog/babel.html" class="active sidebar-link">babel6 的变化</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/babel.html#语法转义器" class="sidebar-link">语法转义器</a></li><li class="sidebar-sub-header"><a href="/blog/babel.html#补丁转义器" class="sidebar-link">补丁转义器</a></li><li class="sidebar-sub-header"><a href="/blog/babel.html#jsx和flow插件" class="sidebar-link">jsx和flow插件</a></li><li class="sidebar-sub-header"><a href="/blog/babel.html#polyfill-io" class="sidebar-link">polyfill.io</a></li></ul></li><li><a href="/blog/css技巧.html" class="sidebar-link">css小技巧</a></li><li><a href="/blog/express.html" class="sidebar-link">嘻嘻嘻</a></li><li><a href="/blog/git-github.html" class="sidebar-link">git-github</a></li><li><a href="/blog/gulp插件集合.html" class="sidebar-link">gulp插件集合</a></li><li><a href="/blog/js-array.html" class="sidebar-link">js-array</a></li><li><a href="/blog/js的模块化.html" class="sidebar-link">js的模块化</a></li><li><a href="/blog/jwt.html" class="sidebar-link">jwt</a></li><li><a href="/blog/linux.html" class="sidebar-link">linux</a></li><li><a href="/blog/lodash.html" class="sidebar-link">lodash</a></li><li><a href="/blog/markdown.html" class="sidebar-link">packageJson</a></li><li><a href="/blog/nginx.html" class="sidebar-link">nginx</a></li><li><a href="/blog/node-fs.html" class="sidebar-link">node - fs</a></li><li><a href="/blog/node-express.html" class="sidebar-link">node-express</a></li><li><a href="/blog/node.html" class="sidebar-link">node</a></li><li><a href="/blog/npm整理.html" class="sidebar-link">npm整理</a></li><li><a href="/blog/packageJson.html" class="sidebar-link">packageJson</a></li><li><a href="/blog/pm2.html" class="sidebar-link">pm2</a></li><li><a href="/blog/reduce应用.html" class="sidebar-link">reduce应用及高级技巧</a></li><li><a href="/blog/server.html" class="sidebar-link">server</a></li><li><a href="/blog/vue-router.html" class="sidebar-link">安装</a></li><li><a href="/blog/vue.html" class="sidebar-link">vue</a></li><li><a href="/blog/vuex.html" class="sidebar-link">vuex</a></li><li><a href="/blog/vue生命周期.html" class="sidebar-link">vue生命周期</a></li><li><a href="/blog/webpack整理.html" class="sidebar-link">进击webpack</a></li><li><a href="/blog/分辨率与像素.html" class="sidebar-link">分辨率与像素</a></li><li><a href="/blog/模块化引入方式.html" class="sidebar-link">模块化引入方式</a></li><li><a href="/blog/正则表达式.html" class="sidebar-link">正则表达式</a></li><li><a href="/blog/正则表达式实例整理.html" class="sidebar-link">正则表达式实例整理</a></li><li><a href="/blog/xingnengyouhua.html" class="sidebar-link">前端性能优化总结</a></li></ul></div><div class="page"><div class="content"><h1 id="babel6-的变化"><a href="#babel6-的变化" aria-hidden="true" class="header-anchor">#</a> babel6 的变化</h1><ol><li>移除babel全家桶安装，拆分为单独模块，例如：</li></ol><p><a href>babel-core</a> babel核心api都在这个模块，比如： tansform</p><p><a href>babel-cli</a></p><p>babel-cli是一个通过命令行对js文件进行换码的工具。</p><p>使用方法：</p><p>直接在命令行输出转译后的代码</p><pre class="language-text"><code>babel script.js
+</code></pre><p>指定输出文件</p><pre class="language-text"><code>babel script.js --out-file build.js
+或者是
+babel script.js -o build.js
+</code></pre><p><a href>babel-node</a>
+babel-node是随babel-cli一起安装的，只要安装了babel-cli就会自带babel-node。
+在命令行输入babel-node会启动一个REPL（Read-Eval-Print-Loop），这是一个支持ES6的js执行环境。</p><p><a href>babel-register</a>
+babel-register字面意思能看出来，这是babel的一个注册器，它在底层改写了node的require方法，引入babel-register之后所有require并以.es6, .es, .jsx 和 .js为后缀的模块都会经过babel的转译。</p><p>默认babel-register会忽略对node_modules目录下模块的转译，如果要开启可以进行如下配置。</p><pre class="language-text"><code>require(&quot;babel-register&quot;)({
+  ignore: false
+});
+</code></pre><p>babel-register与babel-core会同时安装，在babel-core中会有一个register.js文件，所以引入babel-register有两种方法：</p><pre class="language-text"><code>require('babel-core/register');
+require('babel-register'); // 推荐，babel-register已经独立成一个模块。
+</code></pre><p><a href>babel-polyfill</a></p><p>polyfill这个单词翻译成中文是垫片的意思，详细点解释就是桌子的桌脚有一边矮一点，拿一个东西把桌子垫平。polyfill在代码中的作用主要是用已经存在的语法和api实现一些浏览器还没有实现的api，对浏览器的一些缺陷做一些修补。
+babel的转译只是语法层次的转译，例如箭头函数、解构赋值、class，对一些新增api以及全局函数（例如：Promise）无法进行转译，这个时候就需要在代码中引入babel-polyfill，让代码完美支持ES6+环境。前面介绍的babel-node就会自动在代码中引入babel-polyfill包。</p><ol start="2"><li>新增 .babelrc 配置文件，基本上所有的babel转译都会来读取这个配置；</li><li>新增 plugin 配置，所有的东西都插件化，什么代码要转译都能在插件中自由配置；</li><li>新增 preset 配置，babel5会默认转译ES6和jsx语法，babel6转译的语法都要在perset中配置，preset简单说就是一系列plugin包的使用。</li></ol><h3 id="babelrc"><a href="#babelrc" aria-hidden="true" class="header-anchor">#</a> babelrc</h3><p>后面的后缀rc来自linux中，使用过linux就知道linux中很多rc结尾的文件，比如.bashrc，rc是run command的缩写，翻译成中文就是运行时的命令，表示程序执行时就会来调用这个文件。
+babel所有的操作基本都会来读取这个配置文件，除了一些在回调函数中设置options参数的，如果没有这个配置文件，会从<code>package.json</code>文件的babel属性中读取配置。</p><h1 id="babel转译器"><a href="#babel转译器" aria-hidden="true" class="header-anchor">#</a> babel转译器</h1><p>在.babelrc配置文件中，主要是对预设（presets）和插件（plugins）进行配置，因此不同的转译器作用不同的配置项，大致可分为以下三项：</p><h2 id="语法转义器"><a href="#语法转义器" aria-hidden="true" class="header-anchor">#</a> 语法转义器</h2><p>主要对javascript最新的语法糖进行编译，并不负责转译javascript新增的api和全局对象。
+常用到的转译器包有，babel-preset-env、babel-preset-es2015、babel-preset-es2016、babel-preset-es2017、babel-preset-latest等。
+在实际开发中可以只选用babel-preset-env来代替余下的，但是还需要配上javascirpt的制作规范一起使用，同时也是官方推荐：</p><pre class="language-javascript"><code><span class="token punctuation">{</span>
+ <span class="token string">&quot;presets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;env&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+   <span class="token string">&quot;modules&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span>
+  <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;stage-2&quot;</span>
+  
+<span class="token punctuation">}</span>
+</code></pre><h2 id="补丁转义器"><a href="#补丁转义器" aria-hidden="true" class="header-anchor">#</a> 补丁转义器</h2><p>主要负责转译javascript新增的api和全局对象
+babel-plugin-transform-runtime, babel-polyfill</p><h2 id="jsx和flow插件"><a href="#jsx和flow插件" aria-hidden="true" class="header-anchor">#</a> jsx和flow插件</h2><p>这类转译器用来转译JSX语法和移除类型声明的，使用Rect的时候你将用到它，转译器名称为babel-preset-react</p><p>plugins</p><p>babel中的插件，通过配置不同的插件才能告诉babel，我们的代码中有哪些是需要转译的。</p><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    <span class="token string">&quot;plugins&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;transform-es2015-arrow-functions&quot;</span><span class="token punctuation">,</span> <span class="token comment">//转译箭头函数</span>
+        <span class="token string">&quot;transform-es2015-classes&quot;</span><span class="token punctuation">,</span> <span class="token comment">//转译class语法</span>
+        <span class="token string">&quot;transform-es2015-spread&quot;</span><span class="token punctuation">,</span> <span class="token comment">//转译数组解构</span>
+        <span class="token string">&quot;transform-es2015-for-of&quot;</span> <span class="token comment">//转译for-of</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//如果要为某个插件添加配置项，按如下写法：</span>
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;plugins&quot;</span><span class="token punctuation">:</span><span class="token punctuation">[</span>
+        <span class="token comment">//改为数组，第二个元素为配置项</span>
+        <span class="token punctuation">[</span><span class="token string">&quot;transform-es2015-arrow-functions&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token string">&quot;spec&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">]</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><p>presets</p><p>然这样一个一个配置插件会非常的麻烦，为了方便，babel为我们提供了一个配置项叫做persets（预设）。</p><p>预设就是一系列插件的集合，就好像修图一样，把上次修图的一些参数保存为一个预设，下次就能直接使用。</p><p>如果要转译ES6语法，只要按如下方式配置即可：</p><pre class="language-javascript"><code><span class="token comment">//先安装ES6相关preset： cnpm install -D babel-preset-es2015</span>
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;presets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;es2015&quot;</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//如果要转译的语法不止ES6，还有各个提案阶段的语法也想体验，可以按如下方式。</span>
+<span class="token comment">//安装需要的preset： cnpm install -D babel-preset-stage-0 babel-preset-stage-1 babel-preset-stage-2 babel-preset-stage-3</span>
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;presets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;es2015&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;stage-0&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;stage-1&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;stage-2&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;stage-3&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//同样babel也能直接转译jsx语法，通过引入react的预设</span>
+<span class="token comment">//cnpm install -D babel-preset-react</span>
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;presets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;es2015&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;react&quot;</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><p>不过上面这些preset官方现在都已经不推荐了，官方唯一推荐preset：babel-preset-env。</p><p>这款preset能灵活决定加载哪些插件和polyfill，不过还是得开发者手动进行一些配置。</p><pre class="language-javascript"><code><span class="token comment">// cnpm install -D babel-preset -env</span>
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;presets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">[</span><span class="token string">&quot;env&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;targets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token comment">//指定要转译到哪个环境</span>
+                <span class="token comment">//浏览器环境</span>
+                <span class="token string">&quot;browsers&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;last 2 versions&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;safari &gt;= 7&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                <span class="token comment">//node环境</span>
+                <span class="token string">&quot;node&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;6.10&quot;</span><span class="token punctuation">,</span> <span class="token comment">//&quot;current&quot;  使用当前版本的node</span>
+                
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+             <span class="token comment">//是否将ES6的模块化语法转译成其他类型</span>
+             <span class="token comment">//参数：&quot;amd&quot; | &quot;umd&quot; | &quot;systemjs&quot; | &quot;commonjs&quot; | false，默认为'commonjs'</span>
+            <span class="token string">&quot;modules&quot;</span><span class="token punctuation">:</span> <span class="token string">'commonjs'</span><span class="token punctuation">,</span>
+            <span class="token comment">//是否进行debug操作，会在控制台打印出所有插件中的log，已经插件的版本</span>
+            <span class="token string">&quot;debug&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token comment">//强制开启某些模块，默认为[]</span>
+            <span class="token string">&quot;include&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;transform-es2015-arrow-functions&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token comment">//禁用某些模块，默认为[]</span>
+            <span class="token string">&quot;exclude&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;transform-es2015-for-of&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token comment">//是否自动引入polyfill，开启此选项必须保证已经安装了babel-polyfill</span>
+            <span class="token comment">//参数：Boolean，默认为false.</span>
+            <span class="token string">&quot;useBuiltIns&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span>
+        <span class="token punctuation">}</span><span class="token punctuation">]</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><p>关于最后一个参数useBuiltIns，有两点必须要注意：</p><ol><li>如果useBuiltIns为true，项目中必须引入babel-polyfill。</li><li>babel-polyfill只能被引入一次，如果多次引入会造成全局作用域的冲突。</li></ol><p>同样的代码，只是.babelrc配置中一个开启了useBuiltIns，一个没有，两个js文件体积相差70K.</p><h1 id="引入-babel-polyfill-不使用usebuiltins"><a href="#引入-babel-polyfill-不使用usebuiltins" aria-hidden="true" class="header-anchor">#</a> 引入 babel-polyfill(不使用useBuiltIns)</h1><ol><li>(浏览器环境)单独在html的<code>&lt;head&gt;</code> 标签中引入<code>babel-polyfill.js</code>(CDN或本地文件均可)</li><li>在<code>webpack</code>配置文件增加入口:如<code>entry: [&quot;babel-polyfill&quot;,'./src/app.js']</code>,polyfill将会被打包进去,记得在package.json中添加生产babel-polyfill依赖</li><li>在<code>webpack</code>入口文件顶部使用<code>import/require</code>引入,如<code>import 'babel-polyfill'</code>,同时<code>package.json</code>添加生产依赖babel-polyfill</li></ol><p>优点</p><ol><li>一次性解决所有兼容性问题,而且是全局的,浏览器的console也可以使用</li></ol><p>缺点</p><ol><li>一次性引入了<code>ES@next</code>的所有<code>polyfill</code>,打包后的js文件会偏大</li><li>对于现代的浏览器,有些不需要<code>polyfill</code>,造成流量浪费</li><li>污染了全局对象</li><li>不适合框架或库的开发</li></ol><h1 id="全局babel-polyfill-使用babel-preset-env和usebuiltins"><a href="#全局babel-polyfill-使用babel-preset-env和usebuiltins" aria-hidden="true" class="header-anchor">#</a> 全局babel-polyfill(使用babel-preset-env和useBuiltIns)</h1><p>pacakge.json引入开发依赖babel-preset-env
+.babelrc中使用preset-env
+指定useBuiltins选项为true
+指定浏览器环境或node环境
+在webpack入口文件中使用<code>import/require</code>引入<code>polyfill</code>,如 <code>import 'babel-polyfill'</code></p><pre class="language-javascript"><code><span class="token punctuation">{</span>
+  <span class="token string">&quot;presets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span><span class="token string">&quot;env&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;modules&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;targets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;browsers&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;ie &gt;=6&quot;</span><span class="token punctuation">]</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;useBuiltIns&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;debug&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><p>优点
+按需(按照指定的浏览器环境所需,并非按照代码所需)引入polyfill,一定程度上减少了不必要polyfill的引入</p><p>配置简单,无需对webpack\html做额外的配置\引入</p><p>注意:</p><p>不可与方法3混用,否则会引起冲突
+全局方式要保证polyfill在所有其它脚本之前被执行(首行import或者设置为html的第一个<code>&lt;head&gt;</code>标签)</p><h2 id="polyfill-io"><a href="#polyfill-io" aria-hidden="true" class="header-anchor">#</a> polyfill.io</h2><p>一个CDN方式提供的polyfill,可根据浏览器UserAgent自动返回合适的polyfill,详细内容自行google.</p><h1 id="babel-preset-env"><a href="#babel-preset-env" aria-hidden="true" class="header-anchor">#</a> babel-preset-env</h1><p>babel preset将基于你的实际浏览器及运行环境，自动的确定babel插件及polyfills，转译ES2015及此版本以上的语言</p><p>在没有配置项的情况下，babel-preset-env表现的同babel-preset-latest一样(或者可以说同babel-preset-es2015, babel-preset-es2016, and babel-preset-es2017结合到一起，表现的一致)</p><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    <span class="token string">&quot;presets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;env&quot;</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><p>你也可以通过配置polyfills和transforms来支持你所需要支持的浏览器，仅配置需要支持的语法来使你的打包文件更轻量级。</p><p>下面的例子，包括polyfills和代码，针对各个浏览器的最新的两个版本，以及safari的版本7及以上，针对以上两个条件的兼容情况进行代码转译。我们根据browserslist来分析具体的支持情况，所以，你可以用任何有效的browserslist查询格式来配置选项。</p><pre class="language-javascript"><code><span class="token punctuation">{</span>
+  <span class="token string">&quot;presets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span><span class="token string">&quot;env&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;targets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;browsers&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;last 2 versions&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;safari &gt;= 7&quot;</span><span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><p>相同的，如果你的运行环境使node.js，你页可以配置babel-preset-env来支持一个特殊的node版本</p><pre class="language-javascript"><code><span class="token punctuation">{</span>
+  <span class="token string">&quot;presets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span><span class="token string">&quot;env&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;targets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;node&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;6.10&quot;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><p>为了更佳的方便，可以使用&quot;node&quot;: &quot;current&quot;根据你运行时的node.js版本,挑选需要的polyfills和transforms来支持。</p><pre class="language-javascript"><code><span class="token punctuation">{</span>
+  <span class="token string">&quot;presets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span><span class="token string">&quot;env&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;targets&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;node&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;current&quot;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><!----><div class="content page-nav"><p class="inner"><span class="prev">
+        ← <a href="/blog/axios.html" class="prev">
+          axios
+        </a></span><span class="next"><a href="/blog/css技巧.html">
+          css小技巧
+        </a> →
+      </span></p></div></div></div></div>
+    <script src="/assets/js/83.03da1a3f.js" defer></script><script src="/assets/js/app.c28e1187.js" defer></script>
+  </body>
+</html>

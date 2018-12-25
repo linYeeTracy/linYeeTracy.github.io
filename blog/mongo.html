@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>linYee&#39;s blog | mongo </title>
+    <meta name="description" content="可长歌，可醉饮，唯不可离去">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.e9561589.css" as="style"><link rel="preload" href="/assets/js/app.c28e1187.js" as="script"><link rel="preload" href="/assets/js/49.ff43b66c.js" as="script"><link rel="prefetch" href="/assets/js/33.5d615819.js"><link rel="prefetch" href="/assets/js/1.314e9720.js"><link rel="prefetch" href="/assets/js/2.b7ae9f51.js"><link rel="prefetch" href="/assets/js/3.1469442e.js"><link rel="prefetch" href="/assets/js/4.8b9c3665.js"><link rel="prefetch" href="/assets/js/5.8f05fa48.js"><link rel="prefetch" href="/assets/js/6.de11eee2.js"><link rel="prefetch" href="/assets/js/7.058c7ab3.js"><link rel="prefetch" href="/assets/js/8.c485cbd9.js"><link rel="prefetch" href="/assets/js/9.14214538.js"><link rel="prefetch" href="/assets/js/10.0c8a647e.js"><link rel="prefetch" href="/assets/js/11.5d18dcd9.js"><link rel="prefetch" href="/assets/js/12.99e91df1.js"><link rel="prefetch" href="/assets/js/13.14fc9d1a.js"><link rel="prefetch" href="/assets/js/14.c09d8685.js"><link rel="prefetch" href="/assets/js/15.a2f4c159.js"><link rel="prefetch" href="/assets/js/16.c8513de2.js"><link rel="prefetch" href="/assets/js/17.77a65d16.js"><link rel="prefetch" href="/assets/js/18.2ed37ee1.js"><link rel="prefetch" href="/assets/js/19.1cf6910b.js"><link rel="prefetch" href="/assets/js/20.5a01f12d.js"><link rel="prefetch" href="/assets/js/21.ed3c83c5.js"><link rel="prefetch" href="/assets/js/22.418ec443.js"><link rel="prefetch" href="/assets/js/23.43c2d579.js"><link rel="prefetch" href="/assets/js/24.106790ab.js"><link rel="prefetch" href="/assets/js/25.83b6967b.js"><link rel="prefetch" href="/assets/js/26.2ddc9425.js"><link rel="prefetch" href="/assets/js/27.623b7ab8.js"><link rel="prefetch" href="/assets/js/28.51006cb3.js"><link rel="prefetch" href="/assets/js/29.0c2dbf0e.js"><link rel="prefetch" href="/assets/js/30.3dfcd80c.js"><link rel="prefetch" href="/assets/js/31.6e3e651d.js"><link rel="prefetch" href="/assets/js/32.a1340061.js"><link rel="prefetch" href="/assets/js/34.806c3aca.js"><link rel="prefetch" href="/assets/js/35.a93ce73b.js"><link rel="prefetch" href="/assets/js/36.88eb63e0.js"><link rel="prefetch" href="/assets/js/37.c53b1529.js"><link rel="prefetch" href="/assets/js/38.d8a736e3.js"><link rel="prefetch" href="/assets/js/39.8d87e087.js"><link rel="prefetch" href="/assets/js/40.abc9cabf.js"><link rel="prefetch" href="/assets/js/41.ab549a3a.js"><link rel="prefetch" href="/assets/js/42.d5b9899d.js"><link rel="prefetch" href="/assets/js/43.180edec4.js"><link rel="prefetch" href="/assets/js/44.fa1da641.js"><link rel="prefetch" href="/assets/js/45.e49fe417.js"><link rel="prefetch" href="/assets/js/46.006c5467.js"><link rel="prefetch" href="/assets/js/47.c2f4fe77.js"><link rel="prefetch" href="/assets/js/48.31f7bd25.js"><link rel="prefetch" href="/assets/js/50.8097df43.js"><link rel="prefetch" href="/assets/js/51.ff1e2e34.js"><link rel="prefetch" href="/assets/js/52.0b64b055.js"><link rel="prefetch" href="/assets/js/53.d6b07f08.js"><link rel="prefetch" href="/assets/js/54.d90f1430.js"><link rel="prefetch" href="/assets/js/55.36a0f5d2.js"><link rel="prefetch" href="/assets/js/56.3fa1e1fc.js"><link rel="prefetch" href="/assets/js/57.b405dc9e.js"><link rel="prefetch" href="/assets/js/58.e00c43fc.js"><link rel="prefetch" href="/assets/js/59.80b36c49.js"><link rel="prefetch" href="/assets/js/60.a1bbdc6a.js"><link rel="prefetch" href="/assets/js/61.91a83384.js"><link rel="prefetch" href="/assets/js/62.23603e69.js"><link rel="prefetch" href="/assets/js/63.07c9232e.js"><link rel="prefetch" href="/assets/js/64.7e6b1d65.js"><link rel="prefetch" href="/assets/js/65.c802ed55.js"><link rel="prefetch" href="/assets/js/66.eea0beab.js"><link rel="prefetch" href="/assets/js/67.584b410a.js"><link rel="prefetch" href="/assets/js/68.cc18b160.js"><link rel="prefetch" href="/assets/js/69.77e1586e.js"><link rel="prefetch" href="/assets/js/70.2003d970.js"><link rel="prefetch" href="/assets/js/71.60093cc3.js"><link rel="prefetch" href="/assets/js/72.796ad2eb.js"><link rel="prefetch" href="/assets/js/73.c4a8b30b.js"><link rel="prefetch" href="/assets/js/74.feb798c8.js"><link rel="prefetch" href="/assets/js/75.6fb13014.js"><link rel="prefetch" href="/assets/js/76.edb2c0b5.js"><link rel="prefetch" href="/assets/js/77.9e39f58e.js"><link rel="prefetch" href="/assets/js/78.08ca8c00.js"><link rel="prefetch" href="/assets/js/79.7366f16a.js"><link rel="prefetch" href="/assets/js/80.0d2e0e48.js"><link rel="prefetch" href="/assets/js/81.fe23c69b.js"><link rel="prefetch" href="/assets/js/82.ca6ca6a2.js"><link rel="prefetch" href="/assets/js/83.03da1a3f.js"><link rel="prefetch" href="/assets/js/84.db1a588f.js"><link rel="prefetch" href="/assets/js/85.bcc7a0d3.js"><link rel="prefetch" href="/assets/js/86.82e737b3.js"><link rel="prefetch" href="/assets/js/87.ed015db9.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e9561589.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/" class="home-link router-link-active"><!----><span class="site-name">
+      linYee's blog
+    </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">博客</a></div><div class="nav-item"><a href="/life/" class="nav-link">生活</a></div><div class="nav-item"><a href="/resume/" class="nav-link">简历</a></div><a href="https://github.com/linYeeTracy/blogs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header><div class="sidebar-mask"></div><div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">博客</a></div><div class="nav-item"><a href="/life/" class="nav-link">生活</a></div><div class="nav-item"><a href="/resume/" class="nav-link">简历</a></div><a href="https://github.com/linYeeTracy/blogs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav><ul class="sidebar-links"><li><a href="/blog/md-example.html" class="sidebar-link">markdown语法实例</a></li><li><a href="/blog/git.html" class="sidebar-link">git 命令行</a></li><li><a href="/blog/github-plugins.html" class="sidebar-link">文档整理</a></li><li><a href="/blog/es6.html" class="sidebar-link">es6</a></li><li><a href="/blog/react.html" class="sidebar-link">react</a></li><li><a href="/blog/ruby-gem.html" class="sidebar-link">ruby-gem</a></li><li><a href="/blog/vue-amap.html" class="sidebar-link">在 Vue 中使用高德地图的一些问题</a></li><li><a href="/blog/vue-business-component.html" class="sidebar-link">谈谈 Vue 业务组件</a></li><li><a href="/blog/axios.html" class="sidebar-link">axios</a></li><li><a href="/blog/babel.html" class="sidebar-link">babel6 的变化</a></li><li><a href="/blog/css技巧.html" class="sidebar-link">css小技巧</a></li><li><a href="/blog/express.html" class="sidebar-link">嘻嘻嘻</a></li><li><a href="/blog/git-github.html" class="sidebar-link">git-github</a></li><li><a href="/blog/gulp插件集合.html" class="sidebar-link">gulp插件集合</a></li><li><a href="/blog/js-array.html" class="sidebar-link">js-array</a></li><li><a href="/blog/js的模块化.html" class="sidebar-link">js的模块化</a></li><li><a href="/blog/jwt.html" class="sidebar-link">jwt</a></li><li><a href="/blog/linux.html" class="sidebar-link">linux</a></li><li><a href="/blog/lodash.html" class="sidebar-link">lodash</a></li><li><a href="/blog/markdown.html" class="sidebar-link">packageJson</a></li><li><a href="/blog/nginx.html" class="sidebar-link">nginx</a></li><li><a href="/blog/node-fs.html" class="sidebar-link">node - fs</a></li><li><a href="/blog/node-express.html" class="sidebar-link">node-express</a></li><li><a href="/blog/node.html" class="sidebar-link">node</a></li><li><a href="/blog/npm整理.html" class="sidebar-link">npm整理</a></li><li><a href="/blog/packageJson.html" class="sidebar-link">packageJson</a></li><li><a href="/blog/pm2.html" class="sidebar-link">pm2</a></li><li><a href="/blog/reduce应用.html" class="sidebar-link">reduce应用及高级技巧</a></li><li><a href="/blog/server.html" class="sidebar-link">server</a></li><li><a href="/blog/vue-router.html" class="sidebar-link">安装</a></li><li><a href="/blog/vue.html" class="sidebar-link">vue</a></li><li><a href="/blog/vuex.html" class="sidebar-link">vuex</a></li><li><a href="/blog/vue生命周期.html" class="sidebar-link">vue生命周期</a></li><li><a href="/blog/webpack整理.html" class="sidebar-link">进击webpack</a></li><li><a href="/blog/分辨率与像素.html" class="sidebar-link">分辨率与像素</a></li><li><a href="/blog/模块化引入方式.html" class="sidebar-link">模块化引入方式</a></li><li><a href="/blog/正则表达式.html" class="sidebar-link">正则表达式</a></li><li><a href="/blog/正则表达式实例整理.html" class="sidebar-link">正则表达式实例整理</a></li><li><a href="/blog/xingnengyouhua.html" class="sidebar-link">前端性能优化总结</a></li></ul></div><div class="page"><div class="content"><h1 id="mongo"><a href="#mongo" aria-hidden="true" class="header-anchor">#</a> mongo</h1><p><a href="https://blog.csdn.net/flyfish111222/article/details/51891130" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/flyfish111222/article/details/51891130</a></p><p><a href="https://juejin.im/post/58f99b3cac502e006395e6e7" target="_blank" rel="noopener noreferrer">koa + vue + mongo</a></p><p><a href="https://imhjm.com/article/5a37d5787dd03248a2e8d586" target="_blank" rel="noopener noreferrer">博客地址1</a></p><p><a href="http://www.runoob.com/mongodb/mongodb-sort.html" target="_blank" rel="noopener noreferrer">命令大全</a></p><h2 id="下载地址"><a href="#下载地址" aria-hidden="true" class="header-anchor">#</a> 下载地址</h2><p><a href="http://dl.mongodb.org/dl/win32/x86_64" target="_blank" rel="noopener noreferrer">mongoDB windows系统各个64位版本下载地址</a></p><h2 id="常用命令"><a href="#常用命令" aria-hidden="true" class="header-anchor">#</a> 常用命令</h2><pre class="language-text"><code>$gt:大于
+$lt:小于
+$gte:大于或等于
+$lte:小于或等于
+$ne:不等于
+</code></pre><ul><li>in 和 not in ($in $nin)</li></ul><pre class="language-text"><code>db.things.find({j:{$in: [2,4,6]}});
+db.things.find({j:{$nin: [2,4,6]}});
+</code></pre><ul><li>取模运算</li></ul><pre class="language-text"><code>如下面的运算：
+db.things.find( &quot;this.a % 10 == 1&quot;)
+可用$mod代替：
+
+db.things.find( { a : { $mod : [ 10 , 1 ] } } )
+</code></pre><ul><li>$all</li></ul><pre class="language-text"><code>$all和$in类似，但是他需要匹配条件内所有的值：
+
+如有一个对象：
+
+{ a: [ 1, 2, 3 ] }
+下面这个条件是可以匹配的：
+
+db.things.find( { a: { $all: [ 2, 3 ] } } );
+但是下面这个条件就不行了：
+
+db.things.find( { a: { $all: [ 2, 3, 4 ] } } );
+</code></pre><ul><li>$size</li></ul><pre class="language-text"><code>$size是匹配数组内的元素数量的，如有一个对象：{a:[&quot;foo&quot;]}，他只有一个元素：
+
+下面的语句就可以匹配：db.things.find( { a : { $size: 1 } } );
+官网上说不能用来匹配一个范围内的元素，如果想找$size&lt;5之类的，他们建议创建一个字段来保存元素的数量。
+
+You cannot use $size to find a range of sizes (for example: arrays with more than 1 element). If you need to query for a range, create an extra size field that you increment when you add elements.
+</code></pre><ul><li>$exists</li></ul><pre class="language-text"><code>$exists用来判断一个元素是否存在：
+
+如：
+
+db.things.find( { a : { $exists : true } } ); // 如果存在元素a,就返回
+db.things.find( { a : { $exists : false } } ); // 如果不存在元素a，就返回
+</code></pre><ul><li>$type</li></ul><pre class="language-text"><code>$type 基于 bson type来匹配一个元素的类型，像是按照类型ID来匹配，不过我没找到bson类型和id对照表。
+
+db.things.find( { a : { $type : 2 } } ); // matches if a is a string
+db.things.find( { a : { $type : 16 } } ); // matches if a is an int
+</code></pre><ul><li>正则表达式</li></ul><pre class="language-text"><code>mongo支持正则表达式，如：
+
+db.customers.find( { name : /acme.*corp/i } ); // 后面的i的意思是区分大小写
+</code></pre><ul><li>查询数据内的值</li></ul><p>下面的查询是查询colors内red的记录，如果colors元素是一个数据,数据库将遍历这个数组的元素来查询。db.things.find( { colors : &quot;red&quot; } );</p><ul><li>$elemMatch</li></ul><p>如果对象有一个元素是数组，那么$elemMatch可以匹配内数组内的元素：</p><blockquote><p>t.find( { x : { $elemMatch : { a : 1, b : { $gt : 1 } } } } )
+{ &quot;_id&quot; : ObjectId(&quot;4b5783300334000000000aa9&quot;),
+&quot;x&quot; : [ { &quot;a&quot; : 1, &quot;b&quot; : 3 }, 7, { &quot;b&quot; : 99 }, { &quot;a&quot; : 11 } ]
+}$elemMatch : { a : 1, b : { $gt : 1 } } 所有的条件都要匹配上才行。
+注意，上面的语句和下面是不一样的。</p></blockquote><blockquote><p>t.find( { &quot;x.a&quot; : 1, &quot;x.b&quot; : { $gt : 1 } } )
+$elemMatch是匹配{ &quot;a&quot; : 1, &quot;b&quot; : 3 }，而后面一句是匹配{ &quot;b&quot; : 99 }, { &quot;a&quot; : 11 }</p></blockquote><ul><li>查询嵌入对象的值</li></ul><p>db.postings.find( { &quot;author.name&quot; : &quot;joe&quot; } );
+注意用法是author.name，用一个点就行了。更详细的可以看这个链接： dot notation</p><p>举个例子：</p><blockquote><p>db.blog.save({ title : &quot;My First Post&quot;, author: {name : &quot;Jane&quot;, id : 1}})
+如果我们要查询 authors name 是Jane的, 我们可以这样：</p></blockquote><blockquote><p>db.blog.findOne({&quot;author.name&quot; : &quot;Jane&quot;})
+如果不用点，那就需要用下面这句才能匹配：</p></blockquote><p>db.blog.findOne({&quot;author&quot; : {&quot;name&quot; : &quot;Jane&quot;, &quot;id&quot; : 1}})
+下面这句：</p><p>db.blog.findOne({&quot;author&quot; : {&quot;name&quot; : &quot;Jane&quot;}})
+是不能匹配的，因为mongodb对于子对象，他是精确匹配。</p><ul><li>元操作符 $not 取反</li></ul><p>如：</p><p>db.customers.find( { name : { $not : /acme.*corp/i } } );db.things.find( { a : { $not : { $mod : [ 10 , 1 ] } } } ); mongodb还有很多函数可以用，如排序，统计等，请参考原文。</p><ul><li>位置操作符$能够更新第一个匹配的数组元素通过$elemMatch()操作符匹配多个内嵌文档的查询条件</li></ul><p>考虑如下的students集合文档grades字段是一个嵌套字段的文档</p><pre class="language-text"><code>{
+  _id: 4,
+  grades: [
+     { grade: 80, mean: 75, std: 8 },
+     { grade: 85, mean: 90, std: 5 },
+     { grade: 90, mean: 85, std: 3 }
+  ]
+}
+</code></pre><p>如下语句会更新嵌套文档中的std值为6，条件是文档的主键是4，字段grades的嵌套文档字段grade字段值小于等于90mean字段值大于80</p><pre class="language-text"><code>db.students.update(
+   {
+     _id: 4,
+     grades: { $elemMatch: { grade: { $lte: 90 }, mean: { $gt: 80 } } }
+   },
+   { $set: { &quot;grades.$.std&quot; : 6 } }
+)
+</code></pre><p>上面的操作语句会更新掉第一个匹配的嵌套文档集合，如下：</p><pre class="language-text"><code>{
+  _id: 4,
+  grades: [
+    { grade: 80, mean: 75, std: 8 },
+    { grade: 85, mean: 90, std: 6 },
+    { grade: 90, mean: 85, std: 3 }
+  ]
+}
+</code></pre><pre class="language-text"><code>[root@snails ~]# ps -ef|grep mongod
+[root@snails ~]# mongo --host=127.0.0.1 --port=27017
+MongoDB shell version: 3.2.7
+connecting to: 127.0.0.1:27017/test
+
+&gt; show dbs  #显示数据库列表 
+&gt; show collections  #显示当前数据库中的集合（类似关系数据库中的表）
+&gt; show users  #显示用户
+&gt; use &lt;db name&gt;  #切换当前数据库，如果数据库不存在则创建数据库。 
+&gt; db.help()  #显示数据库操作命令，里面有很多的命令 
+&gt; db.foo.help()  #显示集合操作命令，同样有很多的命令，foo指的是当前数据库下，一个叫foo的集合，并非真正意义上的命令 
+&gt; db.foo.find()  #对于当前数据库中的foo集合进行数据查找（由于没有条件，会列出所有数据） 
+&gt; db.foo.find( { a : 1 } )  #对于当前数据库中的foo集合进行查找，条件是数据中有一个属性叫a，且a的值为1
+</code></pre><h2 id="其他命令"><a href="#其他命令" aria-hidden="true" class="header-anchor">#</a> 其他命令</h2><pre class="language-text"><code>&gt; db.dropDatabase()  #删除当前使用数据库
+&gt; db.cloneDatabase(&quot;127.0.0.1&quot;)   #将指定机器上的数据库的数据克隆到当前数据库
+&gt; db.copyDatabase(&quot;mydb&quot;, &quot;temp&quot;, &quot;127.0.0.1&quot;)  #将本机的mydb的数据复制到temp数据库中
+&gt; db.repairDatabase()  #修复当前数据库
+&gt; db.getName()  #查看当前使用的数据库，也可以直接用db
+&gt; db.stats()  #显示当前db状态
+&gt; db.version()  #当前db版本
+&gt; db.getMongo()  ＃查看当前db的链接机器地址
+&gt; db.serverStatus()  #查看数据库服务器的状态
+</code></pre><h2 id="权限"><a href="#权限" aria-hidden="true" class="header-anchor">#</a> 权限</h2><p><a href="https://blog.csdn.net/u013066244/article/details/53874216" target="_blank" rel="noopener noreferrer">权限</a><a href="https://blog.csdn.net/leonzhouwei/article/details/46564141" target="_blank" rel="noopener noreferrer">mongoDB 3.0 安全权限访问控制</a></p><h2 id="id-4323原则"><a href="#id-4323原则" aria-hidden="true" class="header-anchor">#</a> _id 4323原则</h2><p>4位Unix时间戳</p><p>3位机器码</p><p>2位进程编号</p><p>3位计数器码，从一个随机数开始累计</p><p>Mongod会自己根据上面得出来的结果生成ID</p><h2 id="model-find-then-model-find-exec-then-区别"><a href="#model-find-then-model-find-exec-then-区别" aria-hidden="true" class="header-anchor">#</a> model.find().then()  model.find().exec().then() 区别</h2><pre class="language-js"><code>model<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+model<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">exec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p>区别在于： mongoose 的所有查询操作返回的结果都是 query （官方文档是这样写的），并非一个完整的promise。
+而加上.exec()则将会返回成为一个完整的 promise 对象，但是其是 mongoose 自行封装的 promise ，与 ES6 标准的 promise 是有所出入的（你应该会在控制台看到相关的警告），而且官方也明确指出，在未来的版本将会废除自行封装的promise，改为 ES6 标准，因此建议楼主在使用过程中替换为 ES6 的 promise，如下：</p><pre class="language-js"><code><span class="token keyword">const</span> mongoose <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'mongoose'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+mongoose<span class="token punctuation">.</span>Promise <span class="token operator">=</span> global<span class="token punctuation">.</span>Promise<span class="token punctuation">;</span>
+</code></pre><h2 id="mongo备份"><a href="#mongo备份" aria-hidden="true" class="header-anchor">#</a> mongo备份</h2><p><a href="https://www.cnblogs.com/pangguoming/p/6028984.html" target="_blank" rel="noopener noreferrer">MongoDB数据备份</a><a href="https://blog.csdn.net/yabingshi_tech/article/details/46741541" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/yabingshi_tech/article/details/46741541</a></p><h2 id="mongodb导出-导入-迁移"><a href="#mongodb导出-导入-迁移" aria-hidden="true" class="header-anchor">#</a> MongoDB导出-导入-迁移</h2><pre class="language-text"><code>  ./mongodump -d 数据库名 -o/home/mongodb/backupdmp/
+  ./mongorestore-d bamuta  --port 27019  /home/mongodb/backupdmp/bamuta
+  show dbs 检查结果
+</code></pre><h3 id="连接特定端口"><a href="#连接特定端口" aria-hidden="true" class="header-anchor">#</a> 连接特定端口</h3><pre class="language-text"><code>mongo localhost:65521
+</code></pre><h2 id="mongoose-api"><a href="#mongoose-api" aria-hidden="true" class="header-anchor">#</a> mongoose api</h2><h3 id="数组操作"><a href="#数组操作" aria-hidden="true" class="header-anchor">#</a> 数组操作</h3><ul><li>数组元素模糊匹配</li></ul><pre class="language-text"><code>数组字段badges每个包含该元素black的文档都将被返回
+
+&gt; db.users.find({badges:&quot;black&quot;},{&quot;_id&quot;:1,badges:1})
+{ &quot;_id&quot; : 1, &quot;badges&quot; : [ &quot;blue&quot;, &quot;black&quot; ] }
+{ &quot;_id&quot; : 4, &quot;badges&quot; : [ &quot;red&quot;, &quot;black&quot; ] }
+{ &quot;_id&quot; : 6, &quot;badges&quot; : [ &quot;black&quot;, &quot;blue&quot; ] }
+</code></pre><ul><li>数组元素精确(全)匹配</li></ul><pre class="language-text"><code>数组字段badges的值为[&quot;black&quot;,&quot;blue&quot;]的文档才能被返回(数组元素值和元素顺序全匹配)
+&gt; db.users.find({badges:[&quot;black&quot;,&quot;blue&quot;]},{&quot;_id&quot;:1,badges:1})
+{ &quot;_id&quot; : 6, &quot;badges&quot; : [ &quot;black&quot;, &quot;blue&quot; ] }
+</code></pre><ul><li>通过数组下标返回指定的文档</li></ul><pre class="language-text"><code>数组的下标从0开始，指定下标值则返回对应的文档
+返回数组badges中第一个元素值为black的文档
+&gt; db.users.find({&quot;badges.1&quot;:&quot;black&quot;},{&quot;_id&quot;:1,badges:1})
+{ &quot;_id&quot; : 1, &quot;badges&quot; : [ &quot;blue&quot;, &quot;black&quot; ] }
+{ &quot;_id&quot; : 4, &quot;badges&quot; : [ &quot;red&quot;, &quot;black&quot; ] }
+</code></pre><ul><li>范围条件任意元素匹配查询</li></ul><pre class="language-text"><code>//查询数组finished的元素值既大于15，又小于20的文档
+        &gt; db.users.find( { finished: { $gt: 15, $lt: 20}},{&quot;_id&quot;:1,finished:1})
+        { &quot;_id&quot; : 1, &quot;finished&quot; : [ 17, 3 ] }
+        { &quot;_id&quot; : 2, &quot;finished&quot; : [ 11, 25 ] }
+        { &quot;_id&quot; : 6, &quot;finished&quot; : [ 18, 12 ] }
+
+        //下面插入一个新的文档，仅包含单个数组元素
+        &gt; db.users.insert({&quot;_id&quot;:7,finished:[19]})
+        WriteResult({ &quot;nInserted&quot; : 1 })
+
+        //再次查询，新增的文档也被返回
+        &gt; db.users.find( { finished: { $gt: 15, $lt: 20}},{&quot;_id&quot;:1,finished:1})
+        { &quot;_id&quot; : 1, &quot;finished&quot; : [ 17, 3 ] }
+        { &quot;_id&quot; : 2, &quot;finished&quot; : [ 11, 25 ] }
+        { &quot;_id&quot; : 6, &quot;finished&quot; : [ 18, 12 ] }
+        { &quot;_id&quot; : 7, &quot;finished&quot; : [ 19 ] }
+</code></pre><ul><li>数组内嵌文档查询</li></ul><pre class="language-text"><code>//查询数组points元素1内嵌文档键points的值小于等于55的文档(精确匹配)
+        &gt; db.users.find( { 'points.0.points': { $lte: 55}},{&quot;_id&quot;:1,points:1})
+        { &quot;_id&quot; : 4, &quot;points&quot; : [ { &quot;points&quot; : 53, &quot;bonus&quot; : 15 }, { &quot;points&quot; : 51, &quot;bonus&quot; : 15 } ] }
+
+    //查询数组points内嵌文档键points的值小于等于55的文档，此处通过.成员的方式实现
+        &gt; db.users.find( { 'points.points': { $lte: 55}},{&quot;_id&quot;:1,points:1})
+        { &quot;_id&quot; : 3, &quot;points&quot; : [ { &quot;points&quot; : 81, &quot;bonus&quot; : 8 }, { &quot;points&quot; : 55, &quot;bonus&quot; : 20 } ] }
+        { &quot;_id&quot; : 4, &quot;points&quot; : [ { &quot;points&quot; : 53, &quot;bonus&quot; : 15 }, { &quot;points&quot; : 51, &quot;bonus&quot; : 15 } ] }
+</code></pre><ul><li>查询</li></ul><pre class="language-text"><code>//多个条件
+db.survey.find(
+   { results: { $elemMatch: { product: &quot;xyz&quot;, score: { $gte: 8 } } } }
+)
+</code></pre><ul><li>upset操作</li></ul><p>mongo没有提供对象数组的Upsert操作——不存在时插入，存在时更新。实现方法就是</p><p>a. 当不知道是否存在时使用<code>$addToSet</code>,如果已经存在，则什么都不发生;如果插入的是多个元素，需要使用<code>$each</code>，否则将以整个输入添加</p><pre class="language-text"><code>&gt;db.stores.update(
+    {&quot;_id&quot;:1},
+    {$addToSet:{$each:{&quot;fruits&quot;:[&quot;apple&quot;, &quot;oranges&quot;]}}}
+)
+</code></pre><ul><li>从数组中删除对象</li></ul><pre class="language-text"><code>db.stores.update(
+    { },
+    { $pull: { fruits: { $in: [ &quot;apples&quot;, &quot;oranges&quot; ] }, vegetables: &quot;carrots&quot; } },
+    { multi: true }
+)
+</code></pre><h3 id="对多个字段模糊查询"><a href="#对多个字段模糊查询" aria-hidden="true" class="header-anchor">#</a> 对多个字段模糊查询</h3><pre class="language-text"><code>db.find({
+  $or:[
+    {name:{$regex:/a/}},
+    {age:{$regex:/5/}}
+  ]
+})
+</code></pre><h3 id="正则"><a href="#正则" aria-hidden="true" class="header-anchor">#</a> 正则</h3><pre class="language-text"><code>db.collection.find( { sku: /adC/i } );
+等效于下面这种写法 
+db.collection.find( { sku: { $regex: 'abC', $options: 'i' } } );
+</code></pre><p>参数 <code>i</code> ====== 加了这个参数，表示不区分大小写
+参数 <code>m</code> ===== 个人理解这个参数是用来匹配value中有换行符(\n)的情形。
+参数 <code>s</code> ===== 允许点字符（.）匹配所有的字符，包括换行符。
+参数 <code>x</code> ====== 官网的大意是忽视空白字符。</p><h3 id="更新操作"><a href="#更新操作" aria-hidden="true" class="header-anchor">#</a> 更新操作</h3><h4 id="更新一条和更新多条"><a href="#更新一条和更新多条" aria-hidden="true" class="header-anchor">#</a> 更新一条和更新多条</h4><p>正常来说，只更新匹配到的第一条</p><pre class="language-js"><code>db<span class="token punctuation">.</span>swxx<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;ZJHM&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;xxx&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span><span class="token string">&quot;ZJHM&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;23060419730523301X&quot;</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><p>后面加上可以更新多条的第四个参数，这时候需要用$set操作才能更新多条.</p><pre class="language-js"><code>db<span class="token punctuation">.</span>swxx<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;ZJHM&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;xxxxxxxxxxxxxxxxxx&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>$<span class="token keyword">set</span><span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;ZJHM&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;23060419730523301X&quot;</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token boolean">false</span><span class="token punctuation">,</span><span class="token boolean">true</span><span class="token punctuation">)</span>
+</code></pre><ul><li><p>update参数1：筛选条件</p></li><li><p>参数2：更新哪些字段</p></li><li><p>参数3：如果没有筛选到符合条件的记录，是否需要将参数2插入到集合中，默认false，不插入</p></li><li><p>参数4：默认false，一次更新一条；true一次更新多条，此时参数2需要使用$set操作</p></li></ul><p>update只返回更新状态</p><pre class="language-text"><code>{
+  n: 1,
+  nModified: 1,
+  ok: 1
+}
+</code></pre><p>findByIdAndUpdate { new: true } 返回更新后的文档</p><h2 id="性能优化"><a href="#性能优化" aria-hidden="true" class="header-anchor">#</a> 性能优化</h2><h3 id="并行处理"><a href="#并行处理" aria-hidden="true" class="header-anchor">#</a> 并行处理</h3><p>count和find/skip/limit是典型的可以并行的运算。</p><pre class="language-js"><code><span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">getPage</span><span class="token punctuation">(</span>pageNo<span class="token punctuation">,</span> pageSize<span class="token punctuation">,</span> query<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> count <span class="token operator">=</span> <span class="token keyword">await</span> db<span class="token punctuation">.</span><span class="token function">count</span><span class="token punctuation">(</span>query<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> list <span class="token operator">=</span> <span class="token keyword">await</span> db<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>query<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">skip</span><span class="token punctuation">(</span><span class="token punctuation">(</span>pageNo <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">*</span>pageSize<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">limit</span><span class="token punctuation">(</span>pageSize<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        count<span class="token punctuation">,</span>
+        list
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><p>优化后：</p><pre class="language-js"><code><span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">getPage</span><span class="token punctuation">(</span>pageNo<span class="token punctuation">,</span> pageSize<span class="token punctuation">,</span> query<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    result <span class="token operator">=</span> <span class="token keyword">await</span> Promise<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+        db<span class="token punctuation">.</span><span class="token function">count</span><span class="token punctuation">(</span>query<span class="token punctuation">)</span><span class="token punctuation">,</span>
+        db<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>query<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">skip</span><span class="token punctuation">(</span><span class="token punctuation">(</span>pageNo <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">*</span>pageSize<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">limit</span><span class="token punctuation">(</span>pageSize<span class="token punctuation">)</span>
+    <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        count<span class="token punctuation">:</span> result<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        list<span class="token punctuation">:</span> result<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><h2 id="mongodb-update修改器（-inc-set-unset-push-pop-upsert"><a href="#mongodb-update修改器（-inc-set-unset-push-pop-upsert" aria-hidden="true" class="header-anchor">#</a> mongodb update修改器（$inc/$set/$unset/$push/$pop/upsert)</h2><h3 id="inc"><a href="#inc" aria-hidden="true" class="header-anchor">#</a> $inc</h3><blockquote><p>修改器$inc可以对文档的某个值为数字型（<code>只能为满足要求的数字</code>）的键进行增减的操作</p></blockquote><pre class="language-js"><code>db<span class="token punctuation">.</span>b<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;uid&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;201203&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span><span class="token string">&quot;$inc&quot;</span><span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;size&quot;</span> <span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+db<span class="token punctuation">.</span>b<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;uid&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;201203&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span><span class="token string">&quot;$inc&quot;</span><span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;size&quot;</span> <span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">3</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><h3 id="set"><a href="#set" aria-hidden="true" class="header-anchor">#</a> $set</h3><blockquote><p>用来指定一个键并更新键值，若键不存在并创建。可改变键的值类型.
+对于内嵌文档，使用 <code>.</code>连接的方式</p></blockquote><pre class="language-js"><code>db<span class="token punctuation">.</span>a<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;uid&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;20120002&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;type&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;3&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span><span class="token string">&quot;$set&quot;</span><span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;size&quot;</span><span class="token punctuation">:</span><span class="token number">10</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+db<span class="token punctuation">.</span>c<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;toyota&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span><span class="token string">&quot;$set&quot;</span><span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;size.height&quot;</span><span class="token punctuation">:</span><span class="token number">8</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><h3 id="unset"><a href="#unset" aria-hidden="true" class="header-anchor">#</a> $unset</h3><blockquote><p>删除键, 使用修改器$unset时，不论对目标键使用1、0、-1或者具体的字符串等都是可以删除该目标键。</p></blockquote><pre class="language-js"><code>db<span class="token punctuation">.</span>a<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;uid&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;20120002&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;type&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;3&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span><span class="token string">&quot;$unset&quot;</span><span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;size&quot;</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+db<span class="token punctuation">.</span>a<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;uid&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;20120002&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;type&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;3&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span><span class="token string">&quot;$unset&quot;</span><span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;desc&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;sssssss&quot;</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><h3 id="push-数组修改器"><a href="#push-数组修改器" aria-hidden="true" class="header-anchor">#</a> $push - 数组修改器</h3><blockquote><p>$push--向文档的某个数组类型的键添加一个数组元素，不过滤重复的数据。添加时键存在，要求键值类型必须是数组；键不存在，则创建数组类型的键。
+$pushAll 可批量增加数据</p></blockquote><h3 id="ne-addtoset-数组修改器"><a href="#ne-addtoset-数组修改器" aria-hidden="true" class="header-anchor">#</a> $ne/$addToSet - 数组修改器</h3><blockquote><p>给数组类型键值添加一个元素时，避免在数组中产生重复数据，$ne在有些情况是不通行的</p></blockquote><pre class="language-js"><code>db<span class="token punctuation">.</span>c<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;title&quot;</span> <span class="token punctuation">:</span> <span class="token punctuation">{</span>$ne<span class="token punctuation">:</span><span class="token string">&quot;t2&quot;</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>$push<span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;t2&quot;</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+db<span class="token punctuation">.</span>c<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;name&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;toyota&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>$addToSet<span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;t2&quot;</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">// $addToSet与$each结合完成批量数组更新</span>
+db<span class="token punctuation">.</span>sample<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span>name<span class="token punctuation">:</span><span class="token string">&quot;evers&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>$addToSet<span class="token punctuation">:</span><span class="token punctuation">{</span>database<span class="token punctuation">:</span><span class="token punctuation">{</span>$each<span class="token punctuation">:</span><span class="token punctuation">[</span><span class="token string">&quot;JS&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;DB&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;DB&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><h3 id="pop、-pull-数组修改器"><a href="#pop、-pull-数组修改器" aria-hidden="true" class="header-anchor">#</a> $pop、$pull - 数组修改器</h3><blockquote><p>$pop从数组的头或者尾删除数组中的元素</p></blockquote><pre class="language-js"><code><span class="token comment">//从数组的尾部删除 1</span>
+db<span class="token punctuation">.</span>c<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;name&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;toyota&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>$pop<span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token comment">// 0,1,-1皆可</span>
+
+<span class="token comment">// $pull从数组中删除满足条件的元素</span>
+db<span class="token punctuation">.</span>c<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;name&quot;</span> <span class="token punctuation">:</span> <span class="token string">&quot;toyota&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>$pull<span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;t2&quot;</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><h3 id="定位修改器"><a href="#定位修改器" aria-hidden="true" class="header-anchor">#</a> 定位修改器</h3><blockquote><p>在需要对数组中的值进行操作的时候，可通过位置或者定位操作符（&quot;$&quot;）.数组是0开始的，可以直接将下标作为键来选择元素。</p></blockquote><pre class="language-js"><code>db<span class="token punctuation">.</span>c<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;uid&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;001&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>$inc<span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;comments.0.size&quot;</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+db<span class="token punctuation">.</span>c<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">&quot;comments.name&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;t1&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>$<span class="token keyword">set</span><span class="token punctuation">:</span><span class="token punctuation">{</span><span class="token string">&quot;comments.$.size&quot;</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><h3 id="upsert-特殊的更新"><a href="#upsert-特殊的更新" aria-hidden="true" class="header-anchor">#</a> upsert - 特殊的更新</h3><blockquote><p>当没有符合条件的文档，就以这个条件和更新文档为基础创建一个新的文档，如果找到匹配的文档就正常的更新。</p></blockquote><pre class="language-text"><code>db.c.update({&quot;size&quot;:11},{$inc:{&quot;size&quot;:3}},true)
+</code></pre><h2 id="坑"><a href="#坑" aria-hidden="true" class="header-anchor">#</a> 坑</h2><ul><li>如果之前在mongoose中使用过unique唯一索引的话，在使用该唯一索引创建了相关数据后再删除mongoose中的unique代码是无法完全清除该唯一索引的，需要使用mongodb手动清除该集合的唯一索引。</li></ul><h2 id="待读文档"><a href="#待读文档" aria-hidden="true" class="header-anchor">#</a> 待读文档</h2><p><a href="https://www.jianshu.com/p/d073a385d282" target="_blank" rel="noopener noreferrer">mongoose schema</a></p></div><!----><!----></div></div></div>
+    <script src="/assets/js/49.ff43b66c.js" defer></script><script src="/assets/js/app.c28e1187.js" defer></script>
+  </body>
+</html>
